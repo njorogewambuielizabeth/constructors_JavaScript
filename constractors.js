@@ -96,6 +96,9 @@ class Question{
     return answer === this.correctAnswer;
   }
 }
+const question = new Question("Which is not a fruit?", ["Orange", "Guava", "Potatoe", "Berry"], "Potatoe");
+console.log(question);
+
 
 // 2. Create a Quiz class with the following properties:
 // ● questions(array):An array of Question objects.
